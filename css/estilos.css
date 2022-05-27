@@ -1,0 +1,449 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(233, 233, 233);
+}
+
+.princial{
+    width: 1500px;
+    margin: auto;
+}
+    .contactos{
+     width: 100%;
+     margin: auto;
+     display: flex;
+     align-content: center;
+     position: fixed;
+     background-color: rgb(13, 13, 13);
+    }
+        .correo{
+            width: 120%;
+            color: aliceblue;
+            text-align: right;
+            font-size: 20px;
+        }
+            .correo img{
+                width: 30px;
+            }
+        .telefono{
+            width: 100%;
+            color: aliceblue;
+            font-size: 25px;
+        }
+            .telefono img{
+                width: 20px;
+            }
+        .whastsapp{
+            width: 100%;
+            color: aliceblue;
+            font-size: 25px;
+        }
+            .whastsapp img{
+                width: 30px;
+            }
+        .siguenos{
+            width: 100%;
+            color: aliceblue;
+            font-size: 20px;
+            text-align: right;
+        }
+
+        .facebook{
+            width: 10%;
+            color: aliceblue;
+        }
+            .facebook img{
+                width: 30px;
+            }
+        .instagran{
+            width: 10%;
+            color: aliceblue;
+        }
+            .instagran img{
+                width: 30px;
+            }
+    .menu{
+        width: 1500px;
+        height: 100px;
+        margin: 0px;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        display: flex;
+        border-radius: 0px 0px 30px 30px;
+        z-index: 25;
+    }
+        .logo{
+            width: 150px;
+            height: 30px;
+            padding: 20px 3px;
+        }
+            .logo img{
+                width: 100px;
+                height: 60px;
+            }
+        .busqueda{
+            width: 100%; 
+        }
+            .info{
+                background-color: aliceblue;
+                border-radius: 6px;
+                border: 1px solid rgb(231, 118, 191);
+                color: black;
+                outline: none;
+                padding: 16px;
+                transition: border 0.2s ease-in-out 0s;
+                width: 1000px;
+                height: 50px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                margin: 25px 5px;
+            }
+            
+        .favoritos{
+            width: 20%;
+            text-align: center;
+            padding: 30px 50px;
+        }
+            .favoritos img{
+                width: 50px;
+                height: 40px;
+                display: block;
+                position: relative;
+                top: 0px;
+                right: -10px;
+                -webkit-transition: 1s ease-out;
+            }
+                .favoritos img:hover{
+                    width: 70px;
+                    height: 60px;
+                    transition: 1s;
+                    top: 0px;
+                    right: 0px;
+                }
+        .carrito{
+            width: 20%;
+            text-align: center;
+            padding: 25px 0px;
+        }
+            .carrito img{
+                width: 50px;
+                height: 40px;
+                position: relative;
+                top: 0px;
+                right: 0px;
+                -webkit-transition: 1s ease-out;
+            }
+                .carrito img:hover{
+                    width: 70px;
+                    height: 60px;
+                    transition: 1s;
+                    position: relative;
+                    top: 0px;
+                    right: -15px;
+                }
+        .registro{
+            width: 50%;
+            text-align: center;
+            padding: 25px 25px;
+        }
+            .registro img{
+                width: 100px;
+                -webkit-transition: 1s ease-out;
+            }
+                .registro img:hover{
+                    width: 110px;
+                    transition: 1s;
+                }
+    .banner{
+        width: 1500px;
+        height: 500px;
+        margin: 0px;
+        display: block;
+        position: relative;
+        padding: 110px 0px;
+    }
+        .banner img{
+            width: 1500px;
+            height: 450px;
+            margin: 0px;
+        }
+    .productos{
+        width: 1460px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 10px 10px;
+        margin: 80px 20px;
+    }
+        .clase1{
+            width: 1500px;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            border-radius: 10px 10px;
+        }
+            .tor1{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor1 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }
+            .tor2{
+                width: 500px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor2 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }
+            .tor3{
+                width: 500px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor3 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }
+        .clase2{
+            width: 1500px;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            border-radius: 10px 10px;
+        }
+            .tor4{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor4 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }
+            .tor5{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor5 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }
+            .tor6{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor6 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }
+        .clase3{
+            width: 1500px;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+        }
+            .tor7{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor7 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }
+            .tor8{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor8 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }   
+            
+            .tor9{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .tor9 img{
+                    width: 420px;
+                    height: 500px;
+                    align-content: center;
+                    margin: 20px 20px 20px 20px;
+                    border-radius: 20px 20px;
+                }
+    .categorias{
+        width: 1460px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 10px 10px;
+        margin: 80px 20px;
+    }
+        .todo{
+            width: 1500px;
+            height: 300px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+        }
+            .cat1{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .cat1 img{
+                    width: 420px;
+                    height: 230px;
+                    align-content: center;
+                    margin: 15px 15px 15px 15px;
+                    border-radius: 20px 20px;
+                }
+            .cat2{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .cat2 img{
+                    width: 420px;
+                    height: 230px;
+                    align-content: center;
+                    margin: 15px 15px 15px 15px;
+                    border-radius: 20px 20px;
+                }
+            .cat3{
+                width: 500px;
+                background-color: rgb(252, 252, 252);
+                border-radius: 30px 30px;
+                margin: 20px 20px;
+                border: 1px solid rgba(179, 167, 167, 0.256);
+            }
+                .cat3 img{
+                    width: 420px;
+                    height: 230px;
+                    align-content: center;
+                    margin: 15px 15px 15px 15px;
+                    border-radius: 20px 20px;
+                }
+    .pie{
+        width: 1500px;
+            height: 500px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            margin: 50px 0px;
+            border-radius: 20px 20px;
+    }
+        .contac{
+            width: 500px;
+            text-align: left;
+            color: rgb(0, 0, 0);
+        }
+        .acerc{
+            width: 500px;
+            color: rgb(0, 0, 0);
+        }
+        .medio{
+            width: 500px;
+            height: 20px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+            .pagos{
+                width: 500px;
+                padding: 0px 50px 0px 50px;
+                text-align: center; 
+            }
+                .visa{
+                    width: 200px;
+                    height: 100px;
+                }
+                    .visa img{
+                        width: 200px;
+                        height: 100px;
+                    }
+                .master{
+                    width: 200px;
+                    height: 100px;
+                }
+                    .master img{
+                        width: 200px;
+                        height: 100px;
+                    }
+                .yape{
+                    width: 200px;
+                    height: 100px;
+                }
+                    .yape img{
+                        width: 200px;
+                        height: 100px;
+                    }
+                .plim{
+                    width: 200px;
+                    height: 100px;
+                }
+                    .plim img{
+                        width: 200px;
+                        height: 100px;
+                    }
+    .final{
+        width: 1500px;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
