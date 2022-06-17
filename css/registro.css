@@ -1,0 +1,102 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: auto;
+    background: rgb(233, 233, 233);
+
+}
+
+
+#principal{
+    background: rgb(255, 255, 255);
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 60px;
+    border-top: 15px solid rgb(252, 174, 174);
+   
+}
+#bienvenido{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    font-size: 35px;
+    
+}
+#izquierda{
+    width: 498px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    border-right: 2px solid gray;
+}
+    
+    .inicia{             
+        background-color: rgb(255, 255, 255);        
+    }
+    .input{        
+        width: 50%;
+        height: 25px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+        border-radius: 10px;
+        text-align: left;
+        padding: 10px;
+    }
+    .boton1{        
+        width: 55%;
+        height: 50px;
+        background-color: rgb(70, 70, 64);
+        color: aliceblue;
+        margin: 5px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+    }
+    .boton2{        
+        width: 55%;
+        height: 50px;
+        background-color: rgb(66, 103, 178);
+        margin: 5px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        color: aliceblue  ;
+    }
+    .ref{        
+        background-color: rgb(66, 103, 178);
+        color: aliceblue  ;
+    }
+   
+.boton1:hover{
+    background-color: black;
+    
+}
+#olvido{
+    color: rgb(72, 126, 226); 
+    background-color: rgb(255, 255, 255); 
+
+}
+#derecha{
+    width: 498px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    border-left: 2px solid gray;
+
+}
+    .der{        
+        width: 55%;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+    }
+#sincta{             
+    background-color: rgb(255, 255, 255);        
+}
